@@ -3,7 +3,7 @@ const multer = require('multer');
 const router = express.Router();
 
 const upload = multer({ storage: multer.memoryStorage() });
-
+// already knowns foods calories that are common
 const knownFoods = {
   burger: { calories: 540, protein: 28, carbs: 45, fat: 28 },
   pizza: { calories: 610, protein: 26, carbs: 58, fat: 32 },
