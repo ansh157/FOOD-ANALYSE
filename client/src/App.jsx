@@ -138,6 +138,7 @@ function App() {
               </table>
             </>
           )}
+          // help center box
         </section>
       </main>
     </div>
